@@ -2105,6 +2105,8 @@ button,
           background-color: rgba(255, 255, 255, 0.025); }
         #header nav a[href="#menu"]:active {
           background-color: rgba(255, 255, 255, 0.075); }
+    #header nav li {
+      display: inline-block; }
   #header.alt {
     background-color: transparent; }
     #header.alt h1 {
