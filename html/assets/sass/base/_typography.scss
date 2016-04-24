@@ -11,7 +11,7 @@
 		font-family: _font(family);
 		font-size: 16.5pt;
 		font-weight: _font(weight);
-		line-height: 1.65;
+		line-height: 1.45; /* 1.65 */
 
 		@include breakpoint(xlarge) {
 			font-size: 13pt;
@@ -215,4 +215,8 @@
 
 	.align-right {
 		text-align: right;
+	}
+
+	.ksi { /* this is for ξ letter - it looks goog only in Times New Roman (Roman, hehe) */
+		font-family: "Times New Roman";
 	}

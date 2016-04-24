@@ -1,0 +1,1 @@
+sass ../html/assets/sass/main.scss ../html/assets/css/main.css

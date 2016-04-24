@@ -154,7 +154,7 @@
 
 				&.small {
 					li {
-						padding: (_size(element-margin) * 0.25) 0 0 0;
+						padding: (_size(element-margin) * 1.00) 0 0 0;
 
 						&:first-child {
 							padding-top: 0;
@@ -170,7 +170,7 @@
 
 			li {
 				@include icon;
-				margin: (_size(element-margin) * 1.25) 0 0 0;
+				margin: (_size(element-margin) * 0.25) 0 0 0;
 				padding: 0 0 0 3.25em;
 				position: relative;
 
