@@ -64,21 +64,25 @@
 
 		// Menu.
 			var $menu = $('#header ul.links');
-			var $menuButton = $('#header nav a#menu-button');
+			var menuButton = $('#header nav a#menu-button');
 			var menuIsOpen = false;
 
-			if (skel.breakpoints('menucritical').active) $menu.hide();
+			$menu.css("display","none");
+			if (! skel.breakpoints('menucritical').active)
+				$menu.css("display","block");
 			
-			$( $menuButton ).click(function() {
+			function toggleMenu() {
 				menuIsOpen = !menuIsOpen;
 
 				if (menuIsOpen){
-					$menu.show();
+					$menu.css("display","block");
 				}
 				else{
-					$menu.hide();
+					$menu.css("display","none");
 				}
-			});
+			}
+			$( menuButton ).click(toggleMenu);
+			$( menuButton ).on("tap",toggleMenu);
 
 			skel.on('-menucritical', function() {
 				$menu.show();
