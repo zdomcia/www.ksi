@@ -68,7 +68,7 @@
 			var menuIsOpen = false;
 
 			$menu.css("display","none");
-			if (! skel.breakpoints('menucritical').active)
+			if (! skel.breakpoint('menucritical').active)
 				$menu.css("display","block");
 			
 			function toggleMenu() {
