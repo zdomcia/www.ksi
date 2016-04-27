@@ -62,6 +62,12 @@
 
 			}
 
+		// Loading elements of page
+			$.getScript( "http://www.w3schools.com/lib/w3data.js", function( data, textStatus, jqxhr ) { 
+				w3IncludeHTML();
+			} );
+			
+
 		// Menu.
 			var $menu = $('#header ul.links');
 			var menuButton = $('#header nav a#menu-button');

@@ -22,20 +22,7 @@
 			<div id="page-wrapper">
 
 				<!-- Header -->
-					<header id="header" class="not-alt"> <!-- alt class enables old mode: initially disabled, shows after #banner -->
-						<h1><a href="index.html">KSI UJ</a></h1>
-						<nav> 
-							<a href="#menu" id="menu-button">Menu</a>
-							<ul class="links">
-								<li><a href="index.html">Strona główna</a></li>
-								<li><a href="news.html">Aktualności</a></li>
-								<li><a href="generic.html">O KSI</a></li>
-								<li><a href="generic.html">Wydarzenia</a></li>
-								<li><a href="generic.html">Projekty</a></li>
-								<li><a href="#footer">Kontakt</a></li>
-							</ul>
-						</nav>
-					</header>
+				 	<div w3-include-html="_menu.html"></div> 					
 
 				<!-- Banner -->
 					<section id="banner">
@@ -153,28 +140,8 @@
 					</section>
 
 				<!-- Footer -->
-					<section id="footer">
-						<div class="inner">
-							<h2 class="major">Skonatktuj się z nami!</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form><iframe src="http://sayat.me/widget/KSI" frameborder="0" scrolling="no"  id="sayat"><p>Tell me what you think about me: <a href="http://sayat.me/KSI">sayat.me</a></p></iframe></form>
-							<ul class="contact">
-								<li class="fa-home">
-									Koło Studentów Informatyki UJ<br />
-									ul. Łojasiewicza 6 pok. 1173<br />
-									30-348 Kraków
-								</li>
-								<li class="fa-phone">12 664-76-49</li>
-								<li class="fa-envelope"><a href="mailto:ksi@uj.edu.pl">ksi@uj.edu.pl</a></li>
-								<li class="fa-facebook"><a href="https://facebook.com/ksi.uj">facebook.com/ksi.uj</a></li>
-								<li class="fa-instagram"><a href="https://instagram.com/ksiuj">instagram.com/ksiuj</a></li>
-								<li class="fa-github"><a href="https://github.com/KSIUJ">github.com/KSIUJ</a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; Daniel Skowroński &amp; KSI UJ All rights reserved.</li><li>Original design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
+					<div w3-include-html="_footer.html"></div> 
+					
 
 			</div>
 
@@ -185,6 +152,5 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
 	</body>
 </html>
