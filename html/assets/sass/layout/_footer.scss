@@ -140,4 +140,12 @@
 				@include padding(2em, 1.5em);
 			}
 		}
+
+		#sayat {
+			width:400px; 
+			height:330px; 
+			border:0; 
+			overflow:hidden;
+			max-width: 100%;
+		}
 	}
