@@ -40,6 +40,7 @@ Ludzie KSI
 - Piotr Rytko - członek Komisji Rewizyjnej
 - Szymon Borak - członek Komisji Rewizyjnej
 - Patrycja Brzeska - gospodarz
-- Michał Herda - gospodarz, administrator serwerowni
+- Michał Kurzyński - gospodarz
+- Michał Herda - administrator serwerowni
 
 
