@@ -96,48 +96,29 @@
 								</div>
 							</section>
 
-						<!-- Najnowsze newsy -->
-							<section id="news" class="wrapper alt style3">
-								<div class="inner">
-									<h2 class="major">Aktualności</h2>
-									<p>Aktualne wydarzenia, najnowsze projekty i cos jeszcze - <a href="https://www.youtube.com/watch?v=VSjrTz3T6cQ">niechktoś</a> dopisze ładny tekst.</p>
-									<section class="features">
-										<article>
-											<a href="generic.html" class="image"><img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpt1/t31.0-8/12657962_1104894152877686_5845940945599359392_o.jpg" alt="" /></a>
-											<h3 class="major">Google Hash Code 2016</h3>
-											<p>W tym roku KSI zorganizowało jedyny w Krakowie hub hackathonu Google Hash Code.</p>
-											<a href="generic.html" class="special">Czytaj więcej</a>
-										</article><article>
-											<a href="generic.html" class="image"><img src="http://ksi.ii.uj.edu.pl/wp-content/uploads/2015/11/google2015.jpg" alt="" /></a>
-											<h3 class="major">Google Days na UJ!</h3>
-											<p>Koło Studentów Informatyki UJ zaprasza wszystkich na 3 wydarzenia z Google – w tym dwa kończące się pizzą! </p>
-											<a href="generic.html" class="special">Czytaj więcej</a>
-										</article>
-										<article>
-											<a href="generic.html" class="image"><img src="http://ksi.ii.uj.edu.pl/wp-content/uploads/2015/09/zamek11.jpg" alt="" /></a>
-											<h3 class="major">Zamek elektroniczny w siedzibie koła</h3>
-											<p>Dotychczas dostęp do siedziby KSI (sala 1173) odbywa się za pomocą zwykłego klucza. Zdecydowaliśmy się opracować własny zamek elektroniczny (niezależny od systemu wydziałowego), tak aby każdy członek KSI posiadający zwykłą legitymację studencką był w stanie wejść do Koła.</p>
-											<a href="generic.html" class="special">Czytaj więcej</a>
-										</article><article>
-											<a href="generic.html" class="image"><img src="images/temp_itad.png" alt="" /></a>
-											<h3 class="major">ITAD 2015</h3>
-											<p>Zapraszamy na kolejną edycję konferencji IT Academic Day, która odbędzie się na Wydziale Matematyki i Informatyki Uniwersytetu Jagiellońskiego!</p>
-											<a href="generic.html" class="special">Czytaj więcej</a>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfa1/t31.0-8/12492032_1083729518327483_2672522444431790535_o.jpg" alt="" /></a>
-											<h3 class="major">Biblioteka KSI</h3>
-											<p>Zapraszamy do korzystania z naszej biblioteki. Przyjmujemy także książki związane z informatyką/matematyką (ale nie przynoście nam dokumentacji Turbo Pascala 4.0)</p>
-											<a href="http://erc.ksi.ii.uj.edu.pl/ksiegozbior" class="special">Katalog online</a>
-										</article>
-									</section>
-									<ul class="actions">
-										<li><a href="news.html" class="button">Wszystkie aktualności</a></li>
-									</ul>
-								</div>
-							</section>
-
-					</section>
+						<!-- Najnowsze newsy - kilka -->
+						<section id="news" class="wrapper alt style3">
+							<div class="inner">
+								<h2 class="major">Aktualności</h2>
+								<p></p>
+								<section class="features">
+								{% for post in site.posts: %}
+									<article>	
+										{% if post.post_img_url!="": %}
+								    		<a href="{{ post.url }}" class="image"><img src="{{ post.post_img_url }}" alt="" /></a>
+								    	{% endif; %}
+										<h3 class="major">{{ post.title }}</h3>
+										{{ post.excerpt }}
+										<a href="{{ post.url }}" class="special">Czytaj więcej</a>		
+								    </article>
+								    {% if forloop.index == 4 %}
+									{% break %}
+								    {% endif %}
+								{% endfor %}
+								</section>	
+								<a href="/news/" class="special">Wszystkie artykuły znajdziesz w dziale <em>Aktualności<em></a>
+							</div>
+						</section>
 
 				<!-- Footer -->
 					{% include footer.html %}

@@ -16,6 +16,11 @@
 		}
 	}
 
+	p + ul {
+		/* general purpose is to keep <ul> body just aftre previous <p> - kramdown generates <p> ... </p> */
+		margin-top: -2em; /* to inverse p: margin: 0 0 2em 0; but there is no "prevoius sibling" operator in CSS level 3 (it's in version 4 however) */
+	}
+
 	ul {
 		list-style: disc;
 		margin: 0 0 _size(element-margin) 0;
