@@ -1,0 +1,36 @@
+///
+/// Solid State by HTML5 UP
+/// html5up.net | @n33co
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Menu */
+
+	#header nav a#menu-button {
+		display: none;
+	}
+	#header ul.links{
+		display: inline-block;
+	}
+	@include breakpoint(menucritical) {
+		#header nav a#menu-button {
+			display: inline-block !important;
+		}
+		#header ul.links{
+			display: none;
+			width: 100%;
+			position: fixed;
+			left: 0;
+
+			li {
+				display: block;
+
+				*:hover{
+					background: rgba(53, 56, 73, 0.95);
+				}
+			}
+		}
+		#header nav a#menu-button, #header ul.links{
+			background: #4c5c96; 
+		}
+	}
