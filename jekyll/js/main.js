@@ -3,6 +3,15 @@
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+function showPhoto(url){
+    $("#photoCanvas").css("display","table-cell");
+    $("#photoCanvas").html("Wciśnij Escape lub kliknij gdziekolwiek by zamknąć.<br /><div id='photoCanvasImgWrapepr'><img id='photoCanvasImg' src='"+url+"' /></div>");
+    $("#siteGrayout").css("display","block");
+}
+function hidePhoto(){
+    $("#photoCanvas").css("display","none");
+    $("#siteGrayout").css("display","none");
+}
 
 (function($) {
 
@@ -97,6 +106,25 @@
 				$menu.hide();
 			});
 
+		//PhotoShower
+			
+			$(document).keydown(function(e) {
+			    if (e.keyCode == 27) {
+			        hidePhoto();
+			    }
+			});
+			$('.clicker').click(function(event) {
+		        event.stopPropagation();
+		    });
+		    $('html').click(function() {
+		        hidePhoto();
+		    });
+
+		    $("body").append( "<div id='siteGrayout'></div>" );
+		    $("body").append( "<div id='photoCanvas'></div>" );
+
+		    $(".clickablePicture").click(function(){var x = $(this).attr('src'); showPhoto(x);})
+			
 	});
 
 })(jQuery);

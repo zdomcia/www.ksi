@@ -54,3 +54,10 @@ lorem ipsum dolor sit amet
    * Add your elaborate text after second ```---```
 
 You can use .HTML instead of .md but first method is preferred - you can still embed html code in md if really needed - just use ```<div> html content </div>```
+
+### How to add gallery to post
+1. Put photos in some folder (eg. photos/gallery1)
+2. Add following text to body of post/page
+```
+{% image_set path/to/directory %}
+````
