@@ -1,0 +1,29 @@
+---
+layout: bare
+language: en
+subset: root
+permalink: /
+navigation: false
+---
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Koło Studentów Informatyki UJ</title>
+	<script>
+		var language = window.navigator.userLanguage || window.navigator.language;
+		if (language=="pl"){
+			window.location.replace("/pl/");
+		}
+		else{
+			window.location.replace("/en/");
+		}
+	</script>
+</head>
+<body>
+If you see this you probably have disabled JavaScript. Please choose language manually:
+<ul>
+	<li><a href="/pl/">Polski</a></li>
+	<li><a href="/en/">English</a></li>
+</ul>
+</body>
+</html>
