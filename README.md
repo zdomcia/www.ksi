@@ -16,9 +16,10 @@ New website of KSI UJ  - basic jekyll version v1 - it's located in jekyll/ folde
 ```
 ---
 layout:	halfpage
-title:	"Biblioteka KSI zaprasza"
-date:	2015-01-01 12:14:29 +0200
+title:	Biblioteka KSI zaprasza
+date:	   2015-01-01 12:14:29
 post_img_url: https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfa1/t31.0-8/12492032_1083729518327483_2672522444431790535_o.jpg
+language: pl
 ---
 Zapraszamy do korzystania z naszej biblioteki. Przyjmujemy także książki związane z informatyką/matematyką (ale nie przynoście nam dokumentacji Turbo Pascala 4.0).
 
@@ -29,6 +30,7 @@ Zapraszamy do korzystania z naszej biblioteki. Przyjmujemy także książki zwi�
    * ```title``` is what will be displayed in ```<title>``` tag, header in articles list and of course in that's post page
    * ```date``` should match one from filename; if you are lazy you can leave time as-is but it's used for sorting newest to oldest so be  careful
    * ```post_img_url``` is image URL (either relative or absolute - can be full whith http://) related to post - it looks nice in articles list and adds some colors to post view, but you can ommit  line or simply leave it without any content
+   * ```language``` is language; if this field is ommited bad things happen!
    * Add your elaborate text after second ```---```
    * First paragraph of text will be post's excerpt (sometimes called lead) - it should be short as it's displayed in articles list as invitation to read more.
 

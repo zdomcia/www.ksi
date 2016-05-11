@@ -3,6 +3,7 @@ markdown: kramdown
 
 gems:
 - jekyll-language-plugin
+- jekyll-sitemap
 
 language_data: data.%%
 language_includes_dir: _i18n

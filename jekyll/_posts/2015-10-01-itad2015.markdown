@@ -1,9 +1,9 @@
 ---
 layout: halfpage
 title:  "ITAD 2015"
-date:   2015-10-01 12:14:29 +0200
-categories: jekyll update
+date:   2015-10-01 12:14:29
 post_img_url: /images/temp_itad.png
+language: pl
 ---
 Zapraszamy na kolejną edycję konferencji IT Academic Day, która odbędzie się na Wydziale Matematyki i Informatyki Uniwersytetu Jagiellońskiego!
 
