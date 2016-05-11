@@ -3,6 +3,9 @@ layout: halfpage
 permalink: /news/
 title: Aktualności
 excerpt: 
+languages:
+- pl
+- en
 ---
 Konferencje, warsztaty, wykłady, najnowsze przedsięwzięcia - w tej zakładce zawsze znajdziesz to czym obecnie żyje nasze Koło. 
 

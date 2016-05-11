@@ -45,6 +45,9 @@ layout:		halfpage
 permalink:	/about/
 title:		O KSI
 excerpt:	Kilka słów o naszym Kole
+languages:
+- pl
+- en
 ---
 lorem ipsum dolor sit amet
 ```
@@ -53,6 +56,7 @@ lorem ipsum dolor sit amet
    * ```title``` is what will be displayed in ```<title>``` tag, header in articles list and of course in that's post page
    * ```permalink``` is nice URL for page; in this project we use english names for main pages like about, projects etc.
    * ```excerpt``` - unlike in posts you ahve to manually define excerpt because it's used in different purpose - it's displayed below  huge title in page view - it can be different from first paragraph, preferably descriptive about page content so there won't be  "tl;dr" reaction
+   * ```languages``` array for now should have ```en``` and ```pl``` in order to be included in both lang versions
    * Add your elaborate text after second ```---```
 
 You can use .HTML instead of .md but first method is preferred - you can still embed html code in md if really needed - just use ```<div> html content </div>```

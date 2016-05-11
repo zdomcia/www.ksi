@@ -3,6 +3,9 @@ layout: halfpage
 permalink: /projects/
 title: Projekty
 excerpt: 
+languages:
+- pl
+- en
 ---
 Od ponad 40 lat Koło Studentów Informatyki zrzesza osoby, które pasjonują się najnowszymi technologiami. Dzięki temu nasi Kołowicze zrealizowali już wiele autorskich projektów - zarówno czysto programistycznych jak i hardware'owych. Poniżej znaleźć możesz opisy części z nich. Jeżeli ty także masz pomysł, który może zmienić świat koniecznie zajrzyj do zakładki Centrum projektowe. Polecamy także [naszego GitHuba](http://github.com/KSIUJ), gdzie ląduje kod źródłowy większości projektów.
 

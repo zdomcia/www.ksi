@@ -9,7 +9,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:fb="http://ogp.me/ns/fb#">
 	<head>
-		<title>{% t 'title' %}</title>
+		<title>KSI UJ</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
@@ -30,8 +30,8 @@
 					<section id="banner">
 						<div class="inner">
 							<div class="logo"><!--<span class="icon ksi">ξ</span>-->&nbsp;</div>
-							<h2>Koło Studentów Informatyki UJ</h2>
-							<p>Witaj na stronie najlepszego koła naukowego na świecie!</p>
+							<h2>{% t 'title' %}</h2>
+							<p>{% t 'lead' %}</p>
 						</div>
 					</section>
 
@@ -42,31 +42,31 @@
 							<div class="inner">
 								<a href="/about/" class="image"><img src="/images/sticker.png" alt="" style="background: white" /></a>
 								<div class="content">
-									<h2 class="major">Koło Studentów Informatyki UJ</h2>
-									<p>KSI ­ czternasta litera alfabetu greckiego (który z pewnością poznasz na Wstępie do Teorii Mnogości) na naszej uczelni zyskała szczególne znaczenie. Pod tym symbolem kryje się bowiem Koło Studentów Informatyki UJ – organizacja, którą powinien znać każdy student informatyki (i nie tylko!). Od prawie 40 lat zrzeszamy kreatywne i ciekawe świata osoby, które nie chcą ograniczać się wyłącznie do obowiązkowych zajęć na uczelni. </p>
-									<a href="/about/" class="special">Czytaj więcej</a>
+									<h2 class="major">{% t 'section_ksi.title' %}</h2>
+									<p>{% t 'section_ksi.text' %}</p>
+									<a href="/about/" class="special">{% t 'read_more' %}</a>
 								</div>
 							</div>
 						</section>
 
 						<section id="events" class="wrapper alt spotlight style1">
 							<div class="inner">
-								<a href="/events/" class="image"><img src="images/icon-events.png" alt="" /></a>
+								<a href="/events/" class="image"><img src="/images/icon-events.png" alt="" /></a>
 								<div class="content">
-									<h2 class="major">Wydarzenia</h2>
-									<p>Warsztaty, wykłady, konferencje - jeżeli chcesz być na bieżąco z najnowszymi nowinkami w branży, poznać nowe technologie czy spotkać się z innymi pasjonatami IT - ta zakładka jest dla ciebie. Znajdziesz tutaj wydarzenia organizowane przez KSI, a także ciekawe eventy innych organizacji, na które z pewnością warto zajrzeć. </p>
-									<a href="/events/" class="special">Czytaj więcej</a>
+									<h2 class="major">{% t 'section_events.title' %}</h2>
+									<p>{% t 'section_events.text' %} </p>
+									<a href="/events/" class="special">{% t 'read_more' %}</a>
 								</div>
 							</div>
 						</section>
 
 						<section id="centrum-proj" class="wrapper spotlight style2">
 							<div class="inner">
-								<a href="/projects/" class="image"><img src="images/temp_3d.png" alt="" /></a>
+								<a href="/projects/" class="image"><img src="/images/temp_3d.png" alt="" /></a>
 								<div class="content">
-									<h2 class="major">Centrum Projektowe</h2>
-									<p>Jeżeli szukasz miejsca gdzie w spokoju możesz przylutować, spiłować, skręcić, rozkręcić, zdiagnozować swój sprzęt, postawić własny serwer, zbudować drukarkę 3D lub zrealizować swój własny pomysł - zajrzyj koniecznie do naszego Centrum projektowego (sala 1166). </p>
-									<a href="/projects/" class="special">Czytaj więcej</a>
+									<h2 class="major">{% t 'section_proj_center.title' %}</h2>
+									<p>{% t 'section_proj_center.text' %}</p>
+									<a href="/projects/" class="special">{% t 'read_more' %}</a>
 								</div>
 							</div>
 						</section>
@@ -75,9 +75,9 @@
 							<div class="inner">
 								<a href="#" class="image"><img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/12654603_1102916889742079_8854546559629779876_n.jpg?oh=c00c4e047276a44daa47ac4389a065a2&oe=57B032DF&__gda__=1470767247_0208d66d40c0c9bdeffe5ded24d9c7b1" alt="" /></a>
 								<div class="content">
-									<h2 class="major">Dydatktyka [WYMYŚL LEPSZĄ NAZWĘ]</h2>
-									<p>Studia to także czas kiedy można się czegoś... nauczyć ;) KSI w tym pomaga - nie tylko dając przestrzeń gdzie możecie w grupie pouczyć się do kolosa, ale współorganizując warsztaty i szkolenia - np. z Ruby on Rails, czy [DOPISZ COŚ].</p>
-									<a href="#" class="special">Czytaj więcej</a>
+									<h2 class="major">{% t 'section_didactics.title' %}</h2>
+									<p>{% t 'section_didactics.text' %}</p>
+									<a href="#" class="special">{% t 'read_more' %}</a>
 								</div>
 							</div>
 						</section>
@@ -86,20 +86,20 @@
 							<div class="inner">
 								<a href="#" class="image"><img src="https://scontent-waw1-1.cdninstagram.com/t51.2885-15/e15/12797660_1109017662455508_891323330_n.jpg?ig_cache_key=MTIwMDE3OTE0NjQ1MjYxNDU1Mg==.2" alt="" /></a>
 								<div class="content">
-									<h2 class="major">Serwerownia</h2>
-									<p>W KSI mamy też własną serwerownię pełną serwerów w pełni przez nas zarządzanych (stoi tam m.in. ta strona) oraz udostępniamy miejsce dla serwerów Kół Naukowych i naszych Kołowiczów.</p>
-									<a href="#" class="special">Czytaj więcej [TODO]</a>
+									<h2 class="major">{% t 'section_server_room.title' %}</h2>
+									<p>{% t 'section_server_room.text' %}</p>
+									<a href="#" class="special">{% t 'read_more' %} [TODO]</a>
 								</div>
 							</div>
 						</section>
 
 						<section id="projekty" class="wrapper spotlight alt style1">
 							<div class="inner">
-								<a href="#" class="image"><img src="images/octocat_girl.jpg" alt="" /></a>
+								<a href="#" class="image"><img src="/images/octocat_girl.jpg" alt="" /></a>
 								<div class="content">
-									<h2 class="major">Projekty </h2>
-									<p>Klaster obliczeniowy, elektroniczny zamek do drzwi, własny serwer druku, informator dla studentów naszego Wydziału, interaktywna strona Dnia Wydziału - to tylko część z realizowanych przez nas projektów. Czytaj dalej by dowiedzieć się więcej na ich temat. </p>
-									<a href="/projects/" class="special">Czytaj więcej</a>
+									<h2 class="major">{% t 'section_projects.title' %}</h2>
+									<p>{% t 'section_projects.text' %}</p>
+									<a href="/projects/" class="special">{% t 'read_more' %}</a>
 								</div>
 							</div>
 						</section>
@@ -107,8 +107,8 @@
 						<!-- Najnowsze newsy - kilka=4-->
 						<section id="news" class="wrapper style3">
 							<div class="inner">
-								<h2 class="major">Aktualności</h2>
-								<p></p>
+								<h2 class="major">{% t 'section_news.title' %}</h2>
+								<p>{% t 'section_news.text' %}</p>
 								<section class="features">
 								{% for post in site.posts: %}
 									<article>	
@@ -117,14 +117,14 @@
 								    	{% endif; %}
 										<h3 class="major">{{ post.title }}</h3>
 										{{ post.excerpt }}
-										<a href="{{ post.url }}" class="special">Czytaj więcej</a>		
+										<a href="{{ post.url }}" class="special">{% t 'read_more' %}</a>		
 								    </article>
 								    {% if forloop.index == 4 %}
 									{% break %}
 								    {% endif %}
 								{% endfor %}
 								</section>	
-								<a href="/news/" class="special">Wszystkie artykuły znajdziesz w dziale <em>Aktualności</em></a>
+								<a href="/news/" class="special">{% t 'section_news.more' %}</a>
 							</div>
 						</section>
 
