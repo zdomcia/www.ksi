@@ -13,11 +13,11 @@ frontpage:
   
   section_proj_center:
     title:  Centrum projektowe
-    text:   Jeżeli szukasz miejsca gdzie w spokoju możesz przylutować, spiłować, skręcić, rozkręcić, zdiagnozować swój sprzęt, postawić własny serwer, zbudować drukarkę 3D lub zrealizować swój własny pomysł - zajrzyj koniecznie do naszego Centrum projektowego (sala 1166).
+    text:   Jeżeli szukasz miejsca gdzie w spokoju możesz przylutować, spiłować, skręcić, rozkręcić, zdiagnozować swój sprzęt, postawić własny serwer, zbudować drukarkę 3D lub zrealizować swój własny pomysł - zajrzyj koniecznie do naszego Centrum&nbsp;Projektowego&nbsp;(sala&nbsp;1166).
   
   section_didactics:
     title:  Dydatktyka [WYMYŚL LEPSZĄ NAZWĘ]
-    text:   Studia to także czas kiedy można się czegoś... nauczyć ;) KSI w tym pomaga - nie tylko dając przestrzeń gdzie możecie w grupie pouczyć się do kolosa, ale współorganizując warsztaty i szkolenia - np. z Ruby on Rails, czy [DOPISZ COŚ].
+    text:   Studia to także czas kiedy można się czegoś... nauczyć ;) KSI w tym pomaga - nie tylko dając przestrzeń gdzie możecie w grupie pouczyć się do kolosa, ale współorganizując warsztaty i szkolenia - np. z Ruby on Rails, Gita, czy umiejętności miękkich. Jeśli czegoś nie umiesz to w KSI na pewno znajdzie się ktoś kto to już zdał i jest chętny Ci pomóc!
   
   section_server_room:
     title:  Serwerownia
@@ -25,7 +25,7 @@ frontpage:
   
   section_projects:
     title:  Projekty
-    text:   Klaster obliczeniowy, elektroniczny zamek do drzwi, własny serwer druku, informator dla studentów naszego Wydziału, interaktywna strona Dnia Wydziału - to tylko część z realizowanych przez nas projektów. Czytaj dalej by dowiedzieć się więcej na ich temat. 
+    text:   Klaster obliczeniowy, elektroniczny zamek do drzwi, własny serwer druku, informator dla studentów naszego Wydziału, interaktywna strona Dnia Wydziału - to tylko część z realizowanych przez nas projektów. Czytaj dalej by dowiedzieć się więcej na ich temat. I koniecznie zajrzyj na naszego GitHuba!
   
   section_news:
     title:  Aktualności
@@ -36,3 +36,10 @@ frontpage:
     title:  Skonatktuj się z nami!
     text:   Koło Studentów Informatyki nie istniałoby gdyby nie osoby takie jak ty - nasi Kołowicze i sympatycy. Jeżeli masz jakiekolwiek pomysły, sugestie czy pytania - zapraszamy do kontaktu! 
 
+menu:
+  homepage: Strona główna
+  news:     Aktualności
+  about:    O KSI
+  events:   Wydarzenia
+  projects: Projekty
+  contact:  Kontakt
