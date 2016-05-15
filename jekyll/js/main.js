@@ -2,7 +2,10 @@
 	Solid State by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Adapted for KSI by KSI - ksi.ii.uj.edu.pl
 */
+
 function showPhoto(url){
     $("#photoCanvas").css("display","table-cell");
     $("#photoCanvas").html("Wciśnij Escape lub kliknij gdziekolwiek by zamknąć.<br /><div id='photoCanvasImgWrapepr'><img id='photoCanvasImg' src='"+url+"' /></div>");
@@ -21,7 +24,7 @@ function hidePhoto(){
 		xlarge:	'(max-width: 1680px)',
 		large:	'(max-width: 1280px)',
 		medium:	'(max-width: 980px)',
-		menucritical:	'(max-width: 950px)',
+		menucritical:	'(max-width: 980px)',
 		small:	'(max-width: 736px)',
 		xsmall:	'(max-width: 480px)'
 	});
@@ -123,7 +126,10 @@ function hidePhoto(){
 		    $("body").append( "<div id='siteGrayout'></div>" );
 		    $("body").append( "<div id='photoCanvas'></div>" );
 
-		    $(".clickablePicture").click(function(){var x = $(this).attr('src'); showPhoto(x);})
+		    $(".clickablePicture").click(function(){
+		    	var x = $(this).attr('src'); 
+		    	showPhoto(x);
+		    });
 			
 	});
 
