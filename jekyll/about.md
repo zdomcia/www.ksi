@@ -5,7 +5,6 @@ title: O KSI
 excerpt: Kilka słów o naszym Kole
 languages:
 - pl
-- en
 ---
 KSI - czternasta litera alfabetu greckiego (który z pewnością poznasz na Wstępie do Teorii Mnogości) na naszej uczelni zyskała szczególne znaczenie. Pod tym symbolem kryje się bowiem Koło Studentów Informatyki UJ - organizacja, którą powinien znać każdy student informatyki (i nie tylko!). Od prawie 40 lat zrzeszamy kreatywne i ciekawe świata osoby, które nie chcą ograniczać się wyłącznie do obowiązkowych zajęć na uczelni. Co więc robimy?
 
@@ -46,4 +45,4 @@ Ludzie KSI
 - Michał Kurzyński - gospodarz
 - Michał Herda - administrator serwerowni
 
-
+{% image_set photos/pages/about %}

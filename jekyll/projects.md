@@ -5,7 +5,6 @@ title: Projekty
 excerpt: 
 languages:
 - pl
-- en
 ---
 Od ponad 40 lat Koło Studentów Informatyki zrzesza osoby, które pasjonują się najnowszymi technologiami. Dzięki temu nasi Kołowicze zrealizowali już wiele autorskich projektów - zarówno czysto programistycznych jak i hardware'owych. Poniżej znaleźć możesz opisy części z nich. Jeżeli ty także masz pomysł, który może zmienić świat koniecznie zajrzyj do zakładki Centrum projektowe. Polecamy także [naszego GitHuba](http://github.com/KSIUJ), gdzie ląduje kod źródłowy większości projektów.
 
@@ -24,3 +23,5 @@ Dzień Wydziału to jedno z największych wydarzeń organizowanych na naszym Wyd
 [DOPISAĆ]
 - KSIrcianka \\
 Najmniej techniczny, za to najbardziej chyba popularny z realizowanych przez nas projektów. Gra karciana całkowicie oparta na działalności naszego Koła - wszystkie postaci oraz wydarzenia w grze mają swoje odzwierciedlenie w rzeczywistym życiu. Błąd USOSa, wypad do Kauflandu po drodze na Wydział czy egzamin z dyskretnej - kto ze studentów naszego wydziału nie miał z nimi do czynienia? Cel jest prosty - nie dać się wyrzucić ze studiów! Jesteś na tyle odważny by zaryzykować? Wpadnij do siedziby naszego Koła i rozegraj partyjkę (lub trzy :) ) KSIrcianki.
+
+{% image_set photos/pages/projects %}
