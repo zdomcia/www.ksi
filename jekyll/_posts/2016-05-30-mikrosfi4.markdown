@@ -1,0 +1,15 @@
+---
+layout: halfpage
+title:  "mikroSFI #4 - Machine Learning"
+date:   2016-05-30 12:14:29
+post_img_url: /images/mikrosfi4.png
+language: pl
+---
+Zapraszamy Was na czwarte mikroSFI - jednodniowe, popołudniowe spotkanie ze specjalistami i hobbystami w danej dziedzinie. Tematem przewodnim tej edycji będzie Machine Learning. Zarezerwujcie sobie czas 7 czerwca o godzinie 16:30. Do zobaczenia na prelekcjach odbywających się na Wydziale Matematyki i Informatyki UJ w sali 0089.
+
+Agenda już wkrótce!
+
+Wstęp jak zwykle bezpłatny, dla każdego. Serdecznie zapraszamy!
+
+  - [Event na facebooku](https://www.facebook.com/events/205400189853358/)
+  - [Strona WWW](https://mikro.sfi.org.pl)
